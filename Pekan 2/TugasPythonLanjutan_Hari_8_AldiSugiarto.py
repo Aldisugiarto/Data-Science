@@ -4,10 +4,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-consumer_key = "2jmajJHnOxcx4K8saR3b8sibA"
-consumer_secret = "eWRBrcS41ZhOngnJUYtsMCwQi3hUUIY2Q8cgrBZw5Z490V5Nw0"
-access_token = "2677235168-CKKsBzsI9tJw5R3qp00ztAsEAzEzUJWS7xAee1W"
-access_token_secret = "EoopoBbTOiWY9TldEDLEdPWG2UZKP37jJjDxY5ziIOxLo"
+consumer_key = *Your consumer key*
+consumer_secret = *Your consumer secret*
+access_token = *Your token*
+access_token_secret = *your token secret*
 
 auth = tw.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
